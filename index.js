@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 300
 
-app.get('/', (req, res) => {
+app.get('/tin-tuc', (req, res) => {
     res.send("hello")
 })
 
